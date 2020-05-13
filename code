@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #FF9800;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #4C4C4C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #737373;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+.media {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  <h1>Briceyda Ramirez</h1>
+  <h3>My Virtual Gallery</h3>
+</div>
+
+<div class="topnav">
+<a href="home.html">Home</a>
+  <a href="index.html">Gallery</a>
+  <a href="painting gallery.html">Paintings Gallery</a>
+  <a href="artist statement.html">Artist Statement</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div class="row">
+
+  <div class="column">
+    <div class="media">
+      <img src="light.jpg"/>
+    </div>
+    <h2>The Girl with the butterfly tattoo</h2>
+    <p>For this piece I used Photoshop and I wanted to bring a feel of images being cut out and being glued together.</p>
+  
+  </div>
+  
+  <div class="column">
+    <div class="media">
+      <img src="pluto.jpg"/>
+    </div>
+    <h2>Pluto</h2>
+    <p>My First attempt on using illustrator.</p>
+  
+</div>
+  
+  <div class="column">
+    <div class="media">
+      <img src="colorball.jpg"/>
+    </div>
+    <h2>Smash Bros</h2>
+    <p>This was my seconded attempt on using illistrator and I was playing around with the colors and blending tool.</p>
+</div>
+
+  <div class="column">
+    <div class="media">
+      <img src="butterflycolor.jpg"/>
+    </div>
+    <h2>Column</h2>
+    <p>I used Photoshop we had to chose two images and combined them together to create something.  I used the image of fluffy clouds and the picture of me when I got my tattoo</p>
+  
+  </div>
+  
+  <div class="column">
+    <div class="media">
+      <img src="Portrait.jpg"/>
+    </div>
+    <h2>Plallet</h2>
+    <p>I call this one plallet because I played around with lots of really bright colors.</p>
+  
+</div>
+  
+  <div class="column">
+    <div class="media">
+      <img src="sunset1.jpg"/>
+    </div>
+    <h2>Can you spot the Sunset</h2>
+    <p>This was my first time using code to create a glitch affect and this was how it turned out.</p>
+</div>
+
+<div class="column">
+    <div class="media">
+      <img src="way1.jpg"/>
+    </div>
+    <h2>Can You See it?</h2>
+    <p>this my second attempt and it turned out the same but if you look closely you can see something.</p>
+
+</div>
+<div class="column">
+    <div class="media">
+      <img src="purgeb.jpg"/>
+    </div>
+    <h2>Purge</h2></h2>
+    <button onclick="window.location.href='https://youtu.be/oeooLmaHZ7o'">Click me</button><br> 
+    <p>For this piece I wanted to create a sense of feel of horror.</p>
+
+</div>
+
+<div class="column">
+    <div class="media">
+      <img src="BLL.jpg"/>
+    </div>
+    <h2>curtain of lines?</h2>
+    <p>For this piece were had to play around with coding in processing and I came up with this.</p>
+
+    </div>
+<div class="column">
+    <div class="media">
+      <img src="spacedog.jpg"/>
+    </div>
+    <h2>Spacedog</h2></h2>
+    <button onclick="window.location.href='https://skfb.ly/6RUL6'">Click me</button><br> 
+    <p>This is B2D. He has no eye and no mouth. he is practically useless! but he is trying, he is a tribrid a cross between a bunny, dog, and duck.</p>
+
+</div>
+
+<div class="column">
+    <div class="media">
+      <img src="horror.jpg"/>
+    </div>
+    <h2>horror</h2></h2>
+    <button onclick="window.location.href='https://youtu.be/wp3ygNQVLbA'">Click me</button><br> 
+    <p>This is going to be a horror tailer, I used after effect, glitch, and audicity.</p>
+
+</div>
+
+</body>
+</html>
